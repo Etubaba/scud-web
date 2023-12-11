@@ -1,0 +1,58 @@
+{
+  "name": "scud_web",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": {
+    "*": {
+      "target": "http://localhost:3000"
+    }
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/styled": "^11.10.5",
+    "@react-google-maps/api": "^2.12.2",
+    "@reduxjs/toolkit": "^1.8.5",
+    "animate.css": "^4.1.1",
+    "apexcharts": "^3.36.0",
+    "axios": "^1.2.2",
+    "classnames": "^2.3.2",
+    "cookies-next": "^2.1.1",
+    "dotenv": "^16.0.3",
+    "file-saver": "^2.0.5",
+    "javascript-time-ago": "^2.5.9",
+    "js-cookie": "^3.0.1",
+    "next": "12.3.1",
+    "notistack": "^2.0.8",
+    "react": "18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-countup": "^6.3.2",
+    "react-dom": "18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-google-places-autocomplete": "^3.4.0",
+    "react-html5-camera-photo": "^1.5.11",
+    "react-icons": "^4.4.0",
+    "react-quill": "^2.0.0",
+    "react-redux": "^8.0.4",
+    "react-responsive-carousel": "^3.2.23",
+    "react-swipeable": "^7.0.0",
+    "react-time-ago": "^7.2.1",
+    "react-to-print": "^2.14.13",
+    "react-wavesurfer.js": "^0.0.8",
+    "socket.io-client": "^4.6.1",
+    "swiper": "^10.0.3",
+    "wavesurfer.js": "^6.6.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}
